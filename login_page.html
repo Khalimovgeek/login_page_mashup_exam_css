@@ -6,7 +6,7 @@
     <title>Login</title>
     <style>
         body {
-            background: linear-gradient(to bottom, rgb(247, 0, 255), rgb(221, 179, 31));
+            background: linear-gradient(to bottom, rgba(135, 65, 255, 0.5), rgba(221, 139, 31, 0.818));
             margin: 0;
             font-family: sans-serif;
             text-transform: capitalize;
@@ -30,8 +30,9 @@
             
         }
         #login h3{
+            font-size: 25px;
             
-            color: orange;
+            color: rgb(255, 111, 15);
 
         }
         #login input[type = "email"],#login input[type = "password"]{
@@ -42,12 +43,14 @@
         }
         #login input[type = "submit"]{
             color: white;
-            background-color: orange;
+            background-color: rgb(255, 111, 15);
             border: none;
             height: 30px;
             font-size: medium;
         }
-
+        input[type ="checkbox"]{
+            margin-bottom: 10px;
+        }
         @media only screen and (max-width : 600px){
             .form{
                 margin-left: 0;
